@@ -53,3 +53,22 @@
 
 
 
+
+
+## Lesson 5 - Storing Numbers
+
+### Exercises 
+
+- Method 1: `public static void Sum()` 
+- Method 2: `public static void Deposit()`
+- Method 3: `public static void Lottery()`
+- Method 4: `public static void Animals()`
+
+### Extra Exercises 
+- Method 1: `public static void Age()` 
+- Method 2: `public static void PositiveNegative()`
+- Method 3: `public static void HighestValue()`
+
+### Challenges
+- Method 1: `public static void Shipping()`
+- Method 2: `public static void SalesTax()`
