@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Basics_of_CSharp.Lesson6;
+using System;
 
 namespace Basics_of_CSharp
 {
@@ -6,7 +7,8 @@ namespace Basics_of_CSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ExtraExercises.OddEvenNumber();
+            Console.ReadLine();
         }
     }
 }
