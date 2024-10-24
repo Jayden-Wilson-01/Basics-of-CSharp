@@ -8,3 +8,4 @@ below is a list of lessons and what each one is about.
 - Lesson 5 - Making Decisions
 - Lesson 6 - Operators & Loops
 - Lesson 7 - Methods
+- Lesson 8 - Arrays
