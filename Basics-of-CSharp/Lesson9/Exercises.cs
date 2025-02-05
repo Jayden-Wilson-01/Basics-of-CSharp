@@ -16,7 +16,7 @@ namespace Basics_of_CSharp.Lesson9
         /// <summary>
         /// A method to get numbers
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="message">The prompt for the user</param>
         /// <returns></returns>
         private static int GetNumber(string message)
         {

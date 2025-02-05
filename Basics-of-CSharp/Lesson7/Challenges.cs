@@ -28,7 +28,7 @@ namespace Basics_of_CSharp.Lesson7
         /// <summary>
         /// A method to calculate the total pay for a user
         /// </summary>
-        /// <returns></returns>
+        /// <returns>The total pay of an employee</returns>
         private static double CalculatePay()
         {
             // Get hours worked

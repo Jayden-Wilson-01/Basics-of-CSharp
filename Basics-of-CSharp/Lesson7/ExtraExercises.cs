@@ -17,8 +17,8 @@ namespace Basics_of_CSharp.Lesson7
         /// <summary>
         /// A method to get an int value from user
         /// </summary>
-        /// <param name="message"></param>
-        /// <returns></returns>
+        /// <param name="message">The prompt for the user</param>
+        /// <returns>The int value inputted by user</returns>
         private static int GetValue(string message)
         {
             Console.Write(message);
@@ -47,8 +47,8 @@ namespace Basics_of_CSharp.Lesson7
         /// <summary>
         /// method to Calculate Circumference 
         /// </summary>
-        /// <param name="radius"></param>
-        /// <returns></returns>
+        /// <param name="radius">The radius of the circle</param>
+        /// <returns>The circumference of a circle</returns>
         private static double CalcCircumference(double radius)
         {
             //Return the circumference of circle using radius
@@ -59,8 +59,8 @@ namespace Basics_of_CSharp.Lesson7
         /// <summary>
         /// method to Calculate Area 
         /// </summary>
-        /// <param name="radius"></param>
-        /// <returns></returns>
+        /// <param name="radius">The radius of the circle</param>
+        /// <returns>The area of a circle</returns>
         private static double CalcArea(double radius)
         {
             //Return the area of circle using radius
@@ -88,6 +88,11 @@ namespace Basics_of_CSharp.Lesson7
         #endregion
 
         #region Prime Numbers - Not sure how it works
+        /// <summary>
+        /// Checks if a number is prime
+        /// </summary>
+        /// <param name="max">The max number to check</param>
+        /// <returns>True if the number is prime or false if it is not prime</returns>
         private static bool IsPrime(int max)
         {
             if (max == 1)
@@ -107,6 +112,9 @@ namespace Basics_of_CSharp.Lesson7
             return true;
         }
 
+        /// <summary>
+        /// Check if each number from 1 to 100 is a prime number
+        /// </summary>
         public static void Prime()
         {
             for (int i = 1; i < 100; i++)

@@ -1,4 +1,4 @@
-﻿using Basics_of_CSharp.Lesson7;
+﻿using Basics_of_CSharp.Lesson8;
 using System;
 
 namespace Basics_of_CSharp
@@ -7,7 +7,7 @@ namespace Basics_of_CSharp
     {
         static void Main(string[] args)
         {
-            Challenges.DisplayPay();
+            ExtraExercises.MinArrayValue();
             Console.ReadLine();
         }
     }

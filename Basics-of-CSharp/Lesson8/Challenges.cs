@@ -27,8 +27,8 @@ namespace Basics_of_CSharp.Lesson8
         /// <summary>
         /// A meth dto see if both arrays given are similar or different or somewhat similar
         /// </summary>
-        /// <param name="firstArray"></param>
-        /// <param name="secondArray"></param>
+        /// <param name="firstArray">The first array to compare</param>
+        /// <param name="secondArray">The second array to compare</param>
         private static void Compare(int[] firstArray, int[] secondArray)
         {
             // Sort Arrays
